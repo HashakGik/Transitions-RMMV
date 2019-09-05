@@ -31,7 +31,7 @@ Other than the basic transition (which imitates the default fading), the followi
 Instructions
 ------------
 
-Download the [latest release](releases/latest) (alternatively compile your own using the Makefile) and load the plugin.
+Download the [latest release](https://github.com/HashakGik/Transitions-RMMV/releases/latest) (alternatively compile your own using the Makefile) and load the plugin.
 
 At any time invoke the plugin with `SetTransfer mode transition`, with `mode` one of:
 - `battle`: transition before each encounter,
@@ -54,7 +54,7 @@ A demo can be downloaded in the release section, or played online [here](https:/
 Adding new transitions
 ----------------------
 
-You can add new transitions by extending the `Transition_Base` class (see the [documentation](https://HashakGik.github/Transitions-RMMV) and adding the line:
+You can add new transitions by extending the `Transition_Base` class (see the [documentation](https://HashakGik.github.io/Transitions-RMMV) and adding the line:
 
     my.transitions['class'] = "my.Transition_class";
 
